@@ -3,8 +3,13 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
+- type: homepage
   icon: "fa-solid fa-house"
+  url:  'http://neoclova.co.kr'
+
+- type: slideshare
+  icon: 'fa-brands fa-slideshare'
+  url:  'https://www.slideshare.net/neoclova'
 
 - type: linkedin
   icon: 'fab fa-linkedin'
@@ -13,6 +18,7 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
