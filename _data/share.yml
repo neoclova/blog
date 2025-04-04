@@ -16,7 +16,8 @@ platforms:
 
   - type: Line
     icon: "fa-brands fa-line"
-    link: "https://line.me/R/msg/text/?text=TITLE&url=URL"
+    link: "https://line.me/R/msg/text/TITLE&URL"
+
   # Uncomment below if you need to.
   #
   # - type: Linkedin
