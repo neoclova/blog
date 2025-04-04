@@ -3,10 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: homepage
-  icon: "fa-solid fa-house"
-  url:  'http://neoclova.co.kr'
-
 - type: slideshare
   icon: 'fa-brands fa-slideshare'
   url:  'https://www.slideshare.net/neoclova'
