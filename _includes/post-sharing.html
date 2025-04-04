@@ -23,7 +23,6 @@
               customInstanceList="{{ share.instances | jsonify | xml_escape }}"
             {%- endif %}
           >
-            <i class="fa-fw {{ share.icon }}"></i>
           </share-to-mastodon>
         </button>
 
@@ -33,7 +32,6 @@
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
 
       <a href="{{ link }}" target="_blank" rel="noopener" {{ tooltip }}>
-        <i class="fa-fw {{ share.icon }}"></i>
       </a>
     {% endfor %}
 
