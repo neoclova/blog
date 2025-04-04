@@ -14,6 +14,9 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
+  - type: Line
+    icon: "fa-brands fa-line"
+    link: "https://line.me/R/msg/text/?text=TITLE&url=URL"
   # Uncomment below if you need to.
   #
   # - type: Linkedin
