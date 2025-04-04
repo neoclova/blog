@@ -11,9 +11,9 @@
   icon: 'fab fa-linkedin'
   url:  'https://www.linkedin.com/company/neoclova/'
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: map
+  icon: "fa-solid fa-location-dot"
+  url:  'https://kko.kakao.com/qbDLw_i5f8'
 
 # Uncomment and complete the url below to enable more contact options
 #
