@@ -1,7 +1,7 @@
 ---
 title: "Percona Server for MySQL 8.0 Release Notes 8.0.39-30"
 date: 2025-04-06 20:00:00 +0900
-categories: [Release Note, Percona Server for MySQL 8.0]
+categories: [DBMS Release Note, Percona Server for MySQL 8.0]
 tags: [DBMS, MySQL, Percona, Release Notes]
 image:
   path: /assets/img/posts_2025/Percona_Server_for_MySQL.jpg
