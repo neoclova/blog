@@ -2,11 +2,11 @@
 title: "How Can MySQL Catch Up with PostgreSQL’s Momentum?"
 date: 2025-04-05 18:00:00 +0900
 categories: [DBMS, MySQL]
-tags: [Open source, DBMS, MySQL, MariaDB, PostgreSQL]
+tags: [Open source, DBMS, MySQL, MariaDB, Percona, PostgreSQL]
 image:
   path: /assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum-thumbnail.jpg
   lqip: data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAADQBQCdASoUABQAPm0ukkYkIqGhKA1QgA2JQBOmUGdDLVSvA97ww5fMTrnNRFfNyZk8WevW7eCAAP7+Jc5XELECMSii3v4JAZtmOiJCiH8sZrfh+f2CrlZjg8+Yyzhptvfys6MFNagen8KJ5zvPZlviEQ67nG1l+dydspffLDQLkf9dOQwMxYatf9jFuRbKnp6AAfnx1QjSKRLKOktPCEghS8sbeKPB+R+Ud0ZVuMvu7f/ycEh0qqfL69yEB
-  alt: MySQL
+  alt: How Can MySQL Catch Up with PostgreSQL’s Momentum?
 ---
 
 > 원문 : <a href="https://www.percona.com/blog/how-can-mysql-catch-up-with-postgresqls-momentum/" target="_blank">How Can MySQL Catch Up with PostgreSQL’s Momentum?</a> (November 1, 2024)
@@ -14,7 +14,7 @@ image:
 
 MySQL 커뮤니티의 오래된 분들과 이야기를 나누다 보면 이런 질문을 자주 듣습니다. "DB-Engines 의 평가에 따르면 MySQL 은 여전히 PostgreSQL 보다 인기가 많고 훌륭한데, 왜 PostgreSQL 의 인기는 계속해서 상승하고 있고 MySQL 은 점차 인기를 잃어가고 있는 걸까?" 이러한 추세를 반전시키기 위해 MySQL 생태계에서 할 수 있는 일이 있을까요? 살펴봅시다!
 
-![DB-Engines Ranking](/assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum.png){:border-radius="8px"}{: .rounded-img }
+![DB-Engines Ranking](/assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum.png)
 
 PostgreSQL 의 강세와 MySQL 의 하락세를 설명하는 이유는 다음과 같이 요약할 수 있을 것 같습니다. Ownership 과 governance, license, community, architecture 그리고 오픈 소스 제품의 성장 동력이라고 생각합니다.
 
