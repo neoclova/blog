@@ -9,12 +9,12 @@ image:
   alt: MySQL
 ---
 
-> 원문 : <a href="https://www.percona.com/blog/how-can-mysql-catch-up-with-postgresqls-momentum/" target="_blank">How Can MySQL Catch Up with PostgreSQL’s Momentum?</a> (November 1, 2024 <a href="https://www.percona.com/blog/author/pz/" target="_blank">Peter Zaitsev</a>)
+> 원문 : <a href="https://www.percona.com/blog/how-can-mysql-catch-up-with-postgresqls-momentum/" target="_blank">How Can MySQL Catch Up with PostgreSQL’s Momentum?</a> (November 1, 2024)
 {: .prompt-info }
 
 MySQL 커뮤니티의 오래된 분들과 이야기를 나누다 보면 이런 질문을 자주 듣습니다. "DB-Engines 의 평가에 따르면 MySQL 은 여전히 PostgreSQL 보다 인기가 많고 훌륭한데, 왜 PostgreSQL 의 인기는 계속해서 상승하고 있고 MySQL 은 점차 인기를 잃어가고 있는 걸까?" 이러한 추세를 반전시키기 위해 MySQL 생태계에서 할 수 있는 일이 있을까요? 살펴봅시다!
 
- ![neoclova_about](/assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum.png)
+![DB-Engines Ranking](/assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum.png){:border-radius="8px"}{: .rounded-img }
 
 PostgreSQL 의 강세와 MySQL 의 하락세를 설명하는 이유는 다음과 같이 요약할 수 있을 것 같습니다. Ownership 과 governance, license, community, architecture 그리고 오픈 소스 제품의 성장 동력이라고 생각합니다.
 
@@ -86,3 +86,17 @@ MariaDB 에 대해 언급했으니, "MariaDB 가 이미 이러한 문제를 어�
 
 ### Summary
 보시다시피, MySQL 커뮤니티는 MySQL 의 소유 및 governance 방식 때문에 할 수 있는 일이 제한적입니다.장기적으로, MySQL 커뮤니티가 PostgreSQL 과 경쟁력을 유지하기 위해서는 모든 주요 플레이어들이 협력하여 (<a href="https://valkey.io/" target="_blank">Valkey Project</a> 와 유사하게) 새로운 브랜드로 MySQL 의 대안을 만드는 것이 유일한 방법일 것입니다. 이는 위에서 언급한 대부분의 문제를 해결할 수 있습니다.
+
+___
+
+
+### About the Author
+<div style="display: flex; align-items: flex-start; gap: 1rem; margin: 1rem 0;">
+  <img src="/assets/img/posts_2025/peter-zaitsev.jpg" alt="Peter Zaitsev" style="width: 300px; height: auto; border-radius: 8px;">
+  <div>
+    <p>
+      <a href="https://www.percona.com/blog/author/pz/" target="_blank">Peter Zaitsev</a><br>
+      Peter 는 2006년까지 MySQL 에서 고성능 그룹(High Performance Group)을 관리하다가 Percona 를 설립했습니다. Peter 는 컴퓨터 과학 석사 학위를 보유하고 있으며, 데이터베이스 커널, 컴퓨터 하드웨어, 애플리케이션 확장 분야의 전문가입니다.
+    </p>
+  </div>
+</div>
