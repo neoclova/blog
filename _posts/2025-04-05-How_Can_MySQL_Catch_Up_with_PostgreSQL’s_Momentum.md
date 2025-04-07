@@ -1,7 +1,7 @@
 ---
 title: "How Can MySQL Catch Up with PostgreSQL’s Momentum?"
 date: 2025-04-05 18:00:00 +0900
-categories: [DBMS, MySQL]
+categories: [3. DBMS, MySQL]
 tags: [Open source, DBMS, MySQL, MariaDB, Percona, PostgreSQL]
 image:
   path: /assets/img/posts_2025/How_Can_MySQL_Catch_Up_with_PostgreSQL’s_Momentum-thumbnail.jpg
