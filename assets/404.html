@@ -8,7 +8,53 @@ redirect_from:
   - /assets/
   - /posts/
 ---
-
-{% include lang.html %}
-
-<p class="lead">{{ site.data.locales[lang].not_found.statement }}</p>
+<div style="text-align: center;">
+  <img src="/assets/img/neoclova_ci.png" alt="Peter Zaitsev" style="width: 300px; height: auto; border-radius: 8px;">
+  <br>
+  <div>
+    {% include lang.html %}
+    {{ site.data.locales[lang].not_found.statement }}
+  </div>
+  <br>
+  <div style="text-align: center;">
+    <a href="https://neoclova.github.io/blog/" style="
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    " onmouseover="this.style.backgroundColor='#004080'; this.style.transform='scale(1.03)';"
+       onmouseout="this.style.backgroundColor='#003366'; this.style.transform='scale(1)';"
+    >
+      <span>Back Home</span>
+      <span style="
+        display: inline-flex;
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+      ">
+        <span style="
+          display: block;
+          width: 0;
+          height: 0;
+          border-top: 6px solid transparent;
+          border-bottom: 6px solid transparent;
+          border-right: 8px solid white;
+        "></span>
+      </span>
+    </a>
+  </div>
+</div>
