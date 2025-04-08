@@ -1,12 +1,12 @@
 ---
-title: "Percona Server for MySQL 8.0.40-31"
+title: "[Release Note] Percona Server for MySQL 8.0.40-31"
 date: 2025-04-08 14:34:00 +0900
 categories: [2. DBMS Release Note, Percona Server for MySQL 8.0]
 tags: [DBMS, MySQL, Percona, Release Notes]
 image:
   path: /assets/img/posts_2025/Percona_Server_for_MySQL.jpg
   lqip: data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASogACAAPm0qkUYkIiGhMBgMAIANiUAWI3JzUBM1EetKtOpv62bapqVOiP9xek71uFiocAD++g+Bbg7nDaAbZO/dwsyF8NgAs+2QcaWV9mx11MqNK6eF8kwAfxdffojwIH+LfFvi28emn3JH+nye9f1M39h+Oe+qSCH1rWZsL3QgMQVXpLiw+EIQSy8ENzwkdqoWthmM5rSrXeMgSnbgi797H0Dw96NCPHQT4POhbVOrWr05dcFYG
-  alt: Percona Server for MySQL 8.0.40-31
+  alt: Release Note Percona Server for MySQL 8.0.40-31
 ---
 
 > <a href="https://docs.percona.com/percona-server/8.0/release-notes/8.0.40-31.html" target="_blank">Percona Server for MySQL 8.0.40-31</a> (2024-12-30)
@@ -18,14 +18,19 @@ This release merges the MySQL 8.0.40 code base. Percona has implemented the Agil
 Improvements and bug fixes provided by Oracle for MySQL 8.0.40 and included in Percona Server for MySQL are the following:
 
 - Changes in MySQL 8.0.33 caused queries using joins on InnoDB tables to perform worse because refactoring affected functions that were previously inline.
+> `MySQL 8.0.33 변경으로 인해 InnoDB 테이블에서 조인을 사용하는 쿼리의 성능이 저하되었습니다. 이는 inline 함수들을 refactoring 하면서 영향을 받았기 때문입니다.`
 
 - The server crashed when it tried to update columns altered with NULL as the default value using the INSTANT algorithm.
+> `INSTANT 알고리즘으로 기본값을 NULL 로 변경한 컬럼을 업데이트하려고 할 때 서버가 crash 되었습니다.`
 
 - The server could crash during DELETE or UPDATE operations if a column was dropped using the INSTANT algorithm.
+> `INSTANT 알고리즘으로 컬럼을 삭제한 경우, DELETE 나 UPDATE 작업 중에 서버가 crash 될 수 있었습니다.`
 
 - Importing a table created under a different sql_mode sometimes led to schema mismatches, risking data corruption in secondary indexes. The fix now includes integrity checks on the imported tablespace.
+> `다른 sql_mode 에서 생성된 테이블을 import 할 경우 스키마 불일치로 인해 secondary indexe 의 데이터 손상이 발생할 수 있었습니다. 이제는 import 된 테이블스페이스에 대해 무결성 검사가 포함되어 있습니다.`
 
 - Rebuilding tables with secondary indexes required more file I/O operations compared to MySQL 8.0.26, which slowed down query performance.
+> `secondary indexe 를 가진 테이블을 rebuild 할 때 MySQL 8.0.26 보다 더 많은 파일 I/O 작업이 필요했으며, 이로 인해 쿼리 성능이 저하되었습니다.`
 
 Find the complete list of bug fixes and changes in the MySQL 8.0.40 Release Notes.
 

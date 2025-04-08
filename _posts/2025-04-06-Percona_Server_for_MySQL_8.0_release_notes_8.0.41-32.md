@@ -1,32 +1,37 @@
 ---
-title: "Percona Server for MySQL 8.0.41-32"
+title: "[Release Note] Percona Server for MySQL 8.0.41-32"
 date: 2025-04-08 14:35:00 +0900
 categories: [2. DBMS Release Note, Percona Server for MySQL 8.0]
 tags: [DBMS, MySQL, Percona, Release Notes]
 image:
   path: /assets/img/posts_2025/Percona_Server_for_MySQL.jpg
   lqip: data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAADwBQCdASogACAAPm0qkUYkIiGhMBgMAIANiUAWI3JzUBM1EetKtOpv62bapqVOiP9xek71uFiocAD++g+Bbg7nDaAbZO/dwsyF8NgAs+2QcaWV9mx11MqNK6eF8kwAfxdffojwIH+LfFvi28emn3JH+nye9f1M39h+Oe+qSCH1rWZsL3QgMQVXpLiw+EIQSy8ENzwkdqoWthmM5rSrXeMgSnbgi797H0Dw96NCPHQT4POhbVOrWr05dcFYG
-  alt: Percona Server for MySQL 8.0.41-32
+  alt: Release Note Percona Server for MySQL 8.0.41-32
 ---
 
-> <a href="https://docs.percona.com/percona-server/8.0/release-notes/8.0.41-32.html" target="_blank">Percona Server for MySQL 8.0.41-32</a> (2024-02-26)
+> <a href="https://docs.percona.com/percona-server/8.0/release-notes/8.0.41-32.html" target="_blank">Percona Server for MySQL 8.0.41-32</a> (2025-02-26)
 {: .prompt-info }
 
 ## Release highlights
-
 ### Percona Server for MySQL 8.0.41-32
 
 - Extends the <a href="https://docs.percona.com/percona-server/8.0/encryption-functions.html" target="_blank">Encryption user-defined functions</a> with the following:
+> `Encryption UDF 에 다음 기능이 확장되었습니다:`
 
   - Added support for pkcs1, oaep, or no padding for RSA encrypt and decrypt operations
+  > `RSA 암호화 및 복호화 작업에 대해 pkcs1, oaep, 또는 패딩 없음(no padding)을 지원하도록 추가했습니다.`
 
   - Added support for pkcs1 or pkcs1_pss padding for RSA sign and verify operations
+  > `RSA 서명 및 검증 작업에 대해 pkcs1 또는 pkcs1_pss 패딩을 지원하도록 추가했습니다.`
 
   - Added the encryption_udf.legacy_padding_scheme system variable to manage legacy padding schemes
+  > `레거시 패딩 방식을 관리하기 위한 시스템 변수 encryption_udf.legacy_padding_scheme 를 추가했습니다.`
 
   - Added the character set awareness
+  > `character set awareness 기능을 추가했습니다.`
 
 - Improves the <a href="https://docs.percona.com/percona-server/8.0/data-masking-overview.html" target="_blank">Data masking</a> performance by introducing an internal term cache. The new cache speeds up lookups for gen_blocklist() and gen_dictionary() functions by storing dictionary data in memory.
+> `내부 용어 캐시를 도입하여 데이터 마스킹 성능을 향상시켰습니다. 이 새로운 캐시는 gen_blocklist() 및 gen_dictionary() 함수의 조회 속도를 높이기 위해 dictionary 데이터를 메모리에 저장합니다.`
 
 Find more detailed information in the <a href="https://docs.percona.com/percona-server/8.0/data-masking-overview.html" target="_blank">Data masking overview</a> and in the <a href="https://docs.percona.com/percona-server/8.0/data-masking-function-list.html" target="_blank">Data masking component functions</a>.
 
@@ -34,12 +39,16 @@ Find more detailed information in the <a href="https://docs.percona.com/percona-
 Improvements and bug fixes provided by Oracle for MySQL 8.0.41 and included in Percona Server for MySQL are the following:
 
 - Fixed an assertion in debug builds where certain IO buffer serializations caused system hangs. (Bug #37139618)
+> `특정 IO buffer serializations 로 시스템이 멈추는 debug builds 의 assert 오류를 수정했습니다. (Bug #37139618)`
 
 - Resolved a failure when dropping the primary key and adding a new AUTO_INCREMENT column as the primary key in descending order using the INPLACE algorithm resulted in failure. (Bug #36658450)
+> `INPLACE 알고리즘을 사용하여 PK 를 삭제하고 새로운 AUTO_INCREMENT 컬럼을 내림차순 PK 로 추가할 때 실패하던 문제를 해결했습니다. (Bug #36658450)`
 
 - Fixed incorrect results, including missing rows, in queries that used a descending primary key with the index_merge optimization. (Bug #106207, Bug #33767814)
+> `index_merge 최적화를 사용하고 내림차순 PK 를 가진 쿼리에서 누락된 row 등 잘못된 결과가 발생하던 문제를 수정했습니다. (Bug #106207, Bug #33767814)`
 
 - Addressed a replication channel issue where MySQL failed to stop the channel properly when large transactions were being processed, and STOP REPLICA was requested. This issue also prevented graceful server shutdown, requiring process termination or system restart. (Bug #115966, Bug #37008345)
+> `대용량 트랜잭션 처리 중 STOP REPLICA 명령이 실행될 때 replication channel 이 정상적으로 중지되지 않는 문제를 해결했습니다. 이 문제는 서버의 정상적인 종료를 방해하며, 프로세스 강제로 종료하거나 시스템 재시작이 필요했습니다. (Bug #115966, Bug #37008345)`
 
 Find the complete list of bug fixes and changes in the MySQL 8.0.41 Release Notes.
 
