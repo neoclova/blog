@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> <b><span style="color:#3350a2">네오클로바는</span> 오픈소스 기반의 리눅스, 미들웨어, 데이터베이스 구축 및 컨설팅 역량을 보유하고 있습니다</b>
+><b><span style="color:#3350a2">네오클로바는</span> 오픈소스 기반의 리눅스, 미들웨어, 데이터베이스 구축 및 컨설팅 역량을 보유하고 있습니다</b>
 ><br>
 ><br>
 ><br>
