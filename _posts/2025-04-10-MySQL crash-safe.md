@@ -5,13 +5,13 @@ categories: [3. DBMS, MySQL]
 tags: [MySQL, MariaDB, Percona, crash-safe]
 image:
   path: /assets/img/posts_2025/mysql_crash-safe.jpg
-  lqip: 
+  lqip: data:image/jpeg;base64,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
   alt: MySQL crash-safe 분석
 ---
 
 가장 인기있는 오픈소스 관계형 데이터베이스 MySQL 은 데이터가 손실되지 않게 하기위해 매우 중요하고도 기본적인 기능을 갖추고 있습니다. 그렇다면 MySQL 은 충돌(crash)이 발생하더라도 데이터가 손실되지 않게 하기위해 어떻게 설계되었을까요? 이 기능을 지원하는 핵심 기술은 무엇일까요? 이 글에서 내용을 하나씩 정리했습니다.
 
-## 1. 소개
+## 소개
 
 MySQL 은 데이터가 손실되지 않도록 하기위해 크게 다음 두가지 기능으로 구현됩니다.
 
@@ -37,7 +37,7 @@ crash-safe 는 주로 트랜잭션 실행 프로세스가 갑자기 충돌했을
 
 위 그림의 update 실행 과정으로 질문과 답변을 통해 crash-safe 의 원리를 분석해 보겠습니다.
 
-## 2. WAL 메커니즘
+## WAL 메커니즘
 
 > <b>Question</b>❓<br> 
 > MySQL 은 디스크에 데이터를 직접 변경하지 않고 먼저 메모리에 데이터를 변경한다음 로그를 작성하고 background thread 에 의해 비동기로 디스크에 flush 하는 이유는 무엇입니까? 너무 복잡하지 않습니까?
@@ -47,7 +47,7 @@ MySQL 에서 데이터를 변경할때 디스크 파일에 직접 데이터를 �
 
 로그를 작성하는것도 디스크 쓰기 작업이지만 sequential 쓰기이기 때문에 random 쓰기보다 overhead 가 적고 명령문 실행성능을 향상시킬 수 있습니다. sequential 쓰기가 random 쓰기보다 빠른 이유는 한 페이지에 쓰는 것이 해당 페이지를 일일이 찾아서 쓰는 것보다 훨씬 빠르기 때문입니다. 이 기술은 대부분의 스토리지 시스템에 기본적으로 사용되는 WAL(Write Ahead Log) 기술로, 로그 선행 기술이라고도 하며 데이터 파일을 수정하기 전에 먼저 로그를 기록해야 합니다. 데이터 일관성과 지속성을 보장하고 성능을 향상시킵니다.
 
-## 3. 핵심 로그 모듈
+## 핵심 로그 모듈
 
 > <b>Question</b>❓<br> 
 > update SQL 문 실행 과정에서 총 3개의 로그를 작성해야 하는데, 3개의 로그가 모두 필요합니까? 단순화 할수있습니까?
@@ -73,7 +73,7 @@ binlog 는 MySQL 의 서버계층에서 생성되며 어떤엔진에도 속하�
 
 위의 세가지 로그에 대한 자세한 설명을 바탕으로 질문에 답할수 있습니다. Source-Replica 모드에서는 세가지 로그가 모두 필요합니다. 그리고 독립된 Stand-alone 모드에서는 상황에 따라 binlog 유무를 결정할수 있지만 데이터 안전을 생각한다며 켜두는 것이 좋습니다.
 
-## 4. Two phase commit
+## Two phase commit
 
 > <b>Question</b>❓<br> 
 > redo log 를 두단계로 작성하고 그 사이에 binlog 를 작성해야 하는 이유는 무엇입니까?
@@ -104,7 +104,7 @@ redo log commit：T2 --》 T3 --》 T1
 
 여러 트랜잭션의 경우 Two phase commit 프로세스를 기반으로 commit 의 원자성을 보장하기 위해 잠금을 추가하여 redo log 와 binlog 의 commit 순서가 일관되도록 해야합니다. 따라서 초기 MySQL 버전에서는 트랜잭션 제출순서를 보장하기 위해 prepare_commit_mutex 잠금을 사용했습니다. 트랜잭션이 잠금을 획득한 경우에만 prepare 가 가능했으며 commit 이 끝날때까지 잠금을 해제할 수 없었습니다. 잠금은 순차일관성 문제를 완벽하게 해결하지만 동시성이 크면 잠금경합이 발생하고 성능이 저하됩니다. 잠금경합 이외에 성능에 더큰 영향을 미치는 또다른 점은 각 트랜잭션에 대해 두 번의 fsync(디스크 쓰기)가 수행 된다는점입니다. 우리 모두 알고있듯이 디스크에 쓰는 작업은 비용이 많이 드는 작업입니다. 일반 하드 디스크의 경우 초당 QPS 는 몇백에 불과합니다.
 
-## 5. Group Commit
+## Group Commit
 
 > <b>Question</b>❓<br> 
 > Two phase commit 에서 트랜잭션 commit 순서를 제어하기위해 잠금을 구현함으로서 발생하는 성능 병목현상 문제에 대해 더나은 해결방법이 있습니까?
@@ -135,7 +135,7 @@ prepare_commit_mutex 잠금을 획득해서 prepare 상태로 설정하고 디�
 
 Group Commit 이 Two phase commit 보다 잠금성능이 더 나은 이유에 대해 간단히 요약해 보겠습니다. Group Commit 은 여전히 ​​단계별 대기열에서 prepare_commit_mutex 잠금을 획득하지만 잠금의 세분성이 원래 Two phase commit 보다 1/4로 작아져 잠금 경합이 크게 줄어듭니다. 또한 Group Commit 은 일괄 flush 이므로 이전 단일 레코드 flush 에 비해 디스크 IO 소비를 크게 줄일 수 있습니다.
 
-## 6. 데이터 복구 프로세스
+## 데이터 복구 프로세스
 
 > <b>Question</b>❓<br> 
 > 트랜잭션 commit 중에 MySQL 프로세스가 갑자기 충돌했다고 가정했을때, 재시작 이후 데이터가 손실되지 않도록 하려면 어떻게 해야 합니까?
@@ -161,7 +161,7 @@ Case-2 와 동일하게 복구후 먼저 redo log 가 완료되어 prepare 상�
 - Case-4 (redo log 를 commit 할때 또는 트랜잭션이 commit 을 완료했지만 아직 클라이언트에 성공적으로 반환되지 않은경우 충돌발생)<br>
 복구후에는 기본적으로 Case-4 와 동일합니다. redo log 와 binlog 의 트랜잭션 무결성을 비교해서 rollback 또는 commit 을 확인합니다.
 
-## 7. 요약
+## 요약
 
 MySQL crash-safe 원칙에 대한 자세한 설명은 여기까지이고 요약하면 다음과 같습니다. 
 
