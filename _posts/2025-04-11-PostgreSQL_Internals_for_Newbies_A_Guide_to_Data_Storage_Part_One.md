@@ -122,5 +122,3 @@ demo=#
 ```
 
 다음 시간에는 t_cid 와 lp 필드에 대해 다룰 예정입니다.
-
-PostgreSQL 성능 조정 및 최적화에 대한 더 많은 팁은 새로운 eBook Elevate Your PostgreSQL Performance에서 확인하세요.
