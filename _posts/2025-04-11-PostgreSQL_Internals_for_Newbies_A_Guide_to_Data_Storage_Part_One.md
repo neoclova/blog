@@ -75,7 +75,7 @@ root@test1:/var/lib/postgresql/16/main#
 ## The data
 
  ```
- demo=# insert into demo1 values (1),(3),(5),(7),(9),(11);
+demo=# insert into demo1 values (1),(3),(5),(7),(9),(11);
 INSERT 0 6
 demo=# select * from demo1;
 columna 
